@@ -1,0 +1,5 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+UMI13795310:Group2:Size2_BRAFfusionFAM131B/1	3	2	110	chr4	138166136	+	chr6	163535087	+	Inf	TRUE	FALSE	NA	SLC7A11-AS1:QKI	-	LowConfidence
+UMI8996221:Group1:Size1_BRAFfusionFAM131B/1	5	4	45	chr7	121928204	+	chrX	117914336	-	Inf	TRUE	FALSE	NA	PTPRZ1:Y_RNA	-	LowConfidence
+UMI10796187:Group1:Size1_BRAFfusionFAM131B/1	5	11	52	chr7	143359732	-	chr7	140787584	-	2572.149	FALSE	TRUE	TRUE	FAM131B:BRAF	Yes	HighConfidence
+UMI7680862:Group1:Size2_BRAFfusionFAM131B/1	0	2	46	chr7	143360040	-	chr7	140787584	-	2572.457	FALSE	TRUE	TRUE	FAM131B:BRAF	Yes	MediumConfidence

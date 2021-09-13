@@ -1,0 +1,5 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+UMI7601358:Group1:Size1_KIAA1549fusionBRAF/1	0	3	57	chr12	11853561	+	chr12	82438718	+	70585.16	FALSE	TRUE	FALSE	ETV6:METTL25	-	MediumConfidence
+UMI6417603:Group2:Size4_KIAA1549fusionBRAF/1	7	2	45	chr7	121928204	+	chr7	148987241	-	27059.037	TRUE	FALSE	NA	PTPRZ1:RNY1	-	LowConfidence
+UMI12123618:Group1:Size1_KIAA1549fusionBRAF/1	1	12	94	chr7	138861139	-	chr7	140787584	-	1926.443	TRUE	TRUE	TRUE	KIAA1549:BRAF	Yes	HighConfidence
+Locus_540_Transcript_1/1_Confidence_0.800_Length_137	-	4	34	chr9	83980503	-	chr9	84867243	+	886.742	TRUE	TRUE	FALSE	HNRNPK:NTRK2	-	MediumConfidence

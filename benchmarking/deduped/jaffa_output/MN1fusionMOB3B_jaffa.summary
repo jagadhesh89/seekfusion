@@ -1,0 +1,7 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+UMI14554701:Group1:Size1_MN1fusionMOB3B/1	0	2	61	chr1	154170400	-	chr1	150308048	+	3862.354	TRUE	TRUE	FALSE	TPM3:MRPS21	-	MediumConfidence
+UMI16655222:Group1:Size16_MN1fusionMOB3B/1	9	2	46	chr6	163478868	+	chrM	2258	+	Inf	TRUE	FALSE	NA	QKI:MT-RNR2	-	LowConfidence
+UMI16228283:Group1:Size1_MN1fusionMOB3B/1	4	2	105	chr6	163535012	+	chr10	812345	-	Inf	TRUE	FALSE	NA	QKI:LARP4B	-	LowConfidence
+UMI3505495:Group1:Size1_MN1fusionMOB3B/1	0	2	77	chr7	121873557	+	chrX	47846105	+	Inf	TRUE	TRUE	FALSE	PTPRZ1:ZNF81	-	MediumConfidence
+UMI12681415:Group1:Size1_MN1fusionMOB3B/1	1	3	54	chr7	121928204	+	chr7	148963324	+	27035.12	FALSE	FALSE	NA	PTPRZ1:RNY4	-	LowConfidence
+UMI15611847:Group1:Size2_MN1fusionMOB3B/1	2	3	82	chr7	121972560	+	chr5	141395139	+	Inf	TRUE	FALSE	NA	PTPRZ1:PCDHGA8	-	LowConfidence

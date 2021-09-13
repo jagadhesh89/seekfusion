@@ -1,0 +1,2 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+UMI1045552:Group1:Size4_NAB2fusionSTAT6/1	0	9	84	chr12	57092968	+	chr12	57108299	-	15.333	TRUE	TRUE	TRUE	NAB2:STAT6	Yes	MediumConfidence

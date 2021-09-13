@@ -1,0 +1,22 @@
+##fileformat=VCFv4.3
+##source=RNAFUSIONv1.0
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Any structural variants have SVTYPE=BND">
+##INFO=<ID=EVTYPE,Number=1,Type=String,Description="Any structural variants have EVTYPE=Breakend">
+##INFO=<ID=SRC,Number=1,Type=String,Description="For fusion pipeline SRC=UMIFUSION">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene at identified fusion">
+##INFO=<ID=ORIENTATION,Number=1,Type=String,Description="Fusion on 5prime end or 3 prime end">
+##INFO=<ID=LOC,Number=1,Type=String,Description="gene-exon location where fusion occured">
+##INFO=<ID=FSN_LOC,Number=1,Type=String,Description="Type of junction in fusion">
+##INFO=<ID=MATEID,Number=1,Type=String,Description="ID of the fusion partner">
+##INFO=<ID=MATEGENE,Number=1,Type=String,Description="Gene name of the fusion partner">
+##INFO=<ID=FRM_STAT,Number=1,Type=String,Description="Frame status">
+##INFO=<ID=TRANSCRIPT,Number=1,Type=String,Description="Transcript on 3 prime end of fusion">
+##INFO=<ID=FSN_ANNOT,Number=1,Type=String,Description="FusionAnnotation">
+##INFO=<ID=FSN_CVG,Number=1,Type=Integer,Description="Total coverage at fusion position">
+##INFO=<ID=UNIQ_CVG,Number=1,Type=Integer,Description="Unique coverage at fusion position">
+##INFO=<ID=IGV_ID,Number=1,Type=String,Description="IGV Locus",Path="igv_session/igv_session.xml">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total depth at fusion position">
+##FORMAT=<ID=MTC,Number=1,Type=Integer,Description="Molecular tag coverage">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1
+chr1	49332863	bnd_a	C	C]1:49227142]	.	.	MATEID=bnd_b;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=AGBL4;LOC=E6-E2;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_032785;FSN_ANNOT=Fusion-Candidate;MATEGENE=BEND5;IGV_ID=AGBL4:NM_032785:E6-BEND5:NM_024603:E2	DP:MTC	24:24
+chr1	49227142	bnd_b	T	[1:49332863[T	.	.	MATEID=bnd_a;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=BEND5;LOC=E6-E2;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_024603;FSN_ANNOT=Fusion-Candidate;MATEGENE=AGBL4;IGV_ID=AGBL4:NM_032785:E6-BEND5:NM_024603:E2	DP:MTC	24:24

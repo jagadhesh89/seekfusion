@@ -1,0 +1,4 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+UMI14646775:Group3:Size6_EWSR1fusionFLI1/1	0	4	60	chr22	29287134	+	chr11	128805366	+	Inf	TRUE	TRUE	TRUE	EWSR1:FLI1	Yes	MediumConfidence
+UMI11209727:Group1:Size30_EWSR1fusionFLI1/1	0	3	95	chr6	163478896	+	chr21	25955755	-	Inf	TRUE	TRUE	TRUE	QKI:APP	-	MediumConfidence
+UMI16728063:Group12:Size3_EWSR1fusionFLI1/1	0	6	92	chr8	60572113	+	chr6	163561982	+	Inf	TRUE	TRUE	TRUE	RAB2A:QKI	-	MediumConfidence

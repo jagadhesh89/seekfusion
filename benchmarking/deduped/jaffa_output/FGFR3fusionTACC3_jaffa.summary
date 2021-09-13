@@ -1,0 +1,2 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+UMI10747578:Group1:Size2_FGFR3fusionTACC3/1	0	72	63	chr4	1806934	+	chr4	1737598	+	69.334	TRUE	TRUE	TRUE	FGFR3:TACC3	Yes	MediumConfidence

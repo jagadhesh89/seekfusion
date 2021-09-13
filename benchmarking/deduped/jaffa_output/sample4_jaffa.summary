@@ -1,0 +1,3 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+R0265518:356:000000000-BGVML:1:2106:17810:22104/1	0	1	59	chr3	11426926	+	chr5	57246300	+	Inf	TRUE	TRUE	FALSE	ATG7:GPBP1	-	MediumConfidence
+R0265518:356:000000000-BGVML:1:1101:14179:3357/1	0	6	72	chr5	180013061	-	chr15	93002177	+	Inf	TRUE	TRUE	TRUE	RNF130:CHD2	-	MediumConfidence

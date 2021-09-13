@@ -1,0 +1,6 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+UMI6038104:Group2:Size1_EGFRfusionSEPT14/1	2	2	84	chr7	55163741	+	chr15	42692759	+	Inf	TRUE	FALSE	NA	EGFR:STARD9	-	LowConfidence
+UMI6746306:Group1:Size1_EGFRfusionSEPT14/1	1	2	70	chr7	55191840	+	chr7	55796022	-	604.182	TRUE	FALSE	NA	EGFR:SEPT14	Yes	LowConfidence
+Locus_356_Transcript_9/9_Confidence_0.423_Length_452	-	142	315	chr7	55200413	+	chr7	55796092	-	595.683	TRUE	TRUE	TRUE	EGFR:SEPT14	Yes	MediumConfidence
+UMI1023039:Group3:Size9_EGFRfusionSEPT14/1	0	112	73	chr7	55200413	+	chr9	138286248	+	Inf	TRUE	TRUE	TRUE	EGFR:FO082796.1	-	MediumConfidence
+UMI14516223:Group9:Size8_EGFRfusionSEPT14/1	4	3	60	chr7	55795924	-	chr7	55198719	+	597.205	TRUE	FALSE	NA	SEPT14:EGFR	Yes	LowConfidence
