@@ -1,0 +1,26 @@
+##fileformat=VCFv4.3
+##source=RNAFUSIONv1.0
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Any structural variants have SVTYPE=BND">
+##INFO=<ID=EVTYPE,Number=1,Type=String,Description="Any structural variants have EVTYPE=Breakend">
+##INFO=<ID=SRC,Number=1,Type=String,Description="For fusion pipeline SRC=UMIFUSION">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene at identified fusion">
+##INFO=<ID=ORIENTATION,Number=1,Type=String,Description="Fusion on 5prime end or 3 prime end">
+##INFO=<ID=LOC,Number=1,Type=String,Description="gene-exon location where fusion occured">
+##INFO=<ID=FSN_LOC,Number=1,Type=String,Description="Type of junction in fusion">
+##INFO=<ID=MATEID,Number=1,Type=String,Description="ID of the fusion partner">
+##INFO=<ID=MATEGENE,Number=1,Type=String,Description="Gene name of the fusion partner">
+##INFO=<ID=FRM_STAT,Number=1,Type=String,Description="Frame status">
+##INFO=<ID=TRANSCRIPT,Number=1,Type=String,Description="Transcript on 3 prime end of fusion">
+##INFO=<ID=FSN_ANNOT,Number=1,Type=String,Description="FusionAnnotation">
+##INFO=<ID=FSN_CVG,Number=1,Type=Integer,Description="Total coverage at fusion position">
+##INFO=<ID=UNIQ_CVG,Number=1,Type=Integer,Description="Unique coverage at fusion position">
+##INFO=<ID=IGV_ID,Number=1,Type=String,Description="IGV Locus",Path="igv_session/igv_session.xml">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total depth at fusion position">
+##FORMAT=<ID=MTC,Number=1,Type=Integer,Description="Molecular tag coverage">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1
+chr4	1808661	bnd_a_bnd_A	C	C]4:1739325]	.	.	MATEID=bnd_a_bnd_B;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=FGFR3;LOC=E17-E10;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_001163213;FSN_ANNOT=Fusion-Candidate;MATEGENE=TACC3;IGV_ID=FGFR3:NM_001163213:E17-TACC3:NM_006342:E10	DP:MTC	299:299
+chr4	1739325	bnd_a_bnd_B	G	[4:1808661[G	.	.	MATEID=bnd_a_bnd_A;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=TACC3;LOC=E17-E10;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_006342;FSN_ANNOT=Fusion-Candidate;MATEGENE=FGFR3;IGV_ID=FGFR3:NM_001163213:E17-TACC3:NM_006342:E10	DP:MTC	299:299
+chr4	1808607	bnd_a_bnd_C	C	C]4:1739372]	.	.	MATEID=bnd_a_bnd_D;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=FGFR3;LOC=NA-NA;FSN_LOC=within_Gene_but_not_Exon_boundary;FRM_STAT=-;TRANSCRIPT=NA;FSN_ANNOT=-;MATEGENE=TACC3;IGV_ID=FGFR3:NA:NA-TACC3:NA:NA-5	DP:MTC	10:10
+chr4	1739372	bnd_a_bnd_D	G	[4:1808607[G	.	.	MATEID=bnd_a_bnd_C;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=TACC3;LOC=NA-NA;FSN_LOC=within_Gene_but_not_Exon_boundary;FRM_STAT=-;TRANSCRIPT=NA;FSN_ANNOT=-;MATEGENE=FGFR3;IGV_ID=FGFR3:NA:NA-TACC3:NA:NA-5	DP:MTC	10:10
+chr4	1809014	bnd_a_bnd_E	G	G]4:1739325]	.	.	MATEID=bnd_a_bnd_F;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=FGFR3;LOC=NA-E10;FSN_LOC=Intron-Exon_boundary;FRM_STAT=Promoter_Swap;TRANSCRIPT=NA;FSN_ANNOT=-;MATEGENE=TACC3;IGV_ID=FGFR3:NA:NA-TACC3:NM_006342:E10-6	DP:MTC	29:29
+chr4	1739325	bnd_a_bnd_F	G	[4:1809014[G	.	.	MATEID=bnd_a_bnd_E;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=TACC3;LOC=NA-E10;FSN_LOC=Intron-Exon_boundary;FRM_STAT=Promoter_Swap;TRANSCRIPT=NM_006342;FSN_ANNOT=-;MATEGENE=FGFR3;IGV_ID=FGFR3:NA:NA-TACC3:NM_006342:E10-6	DP:MTC	29:29

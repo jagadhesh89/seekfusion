@@ -1,0 +1,2 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+R0265518:441:000000000-C33JF:1:1106:13443:27713/1	0	3	77	chr7	121873557	+	chrX	47846105	+	Inf	TRUE	TRUE	FALSE	PTPRZ1:ZNF81	-	MediumConfidence

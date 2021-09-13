@@ -1,0 +1,4 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+R0265518:356:000000000-BGVML:1:1107:13727:22836/1	0	1	57	chr6	163563719	+	chr6	16657901	-	146905.815	TRUE	TRUE	FALSE	QKI:ATXN1	-	MediumConfidence
+R0265518:356:000000000-BGVML:1:1101:9522:23081/1	0	4	65	chrX	73944662	+	chr16	57173869	-	Inf	TRUE	TRUE	FALSE	JPX:FAM192A	-	MediumConfidence
+R0265518:356:000000000-BGVML:1:1104:9688:8719/1	0	1	65	chrX	73944662	+	chrX	74281848	-	337.189	TRUE	TRUE	FALSE	JPX:FTX	-	MediumConfidence

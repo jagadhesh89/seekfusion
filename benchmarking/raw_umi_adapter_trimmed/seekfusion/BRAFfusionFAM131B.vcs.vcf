@@ -1,0 +1,24 @@
+##fileformat=VCFv4.3
+##source=RNAFUSIONv1.0
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Any structural variants have SVTYPE=BND">
+##INFO=<ID=EVTYPE,Number=1,Type=String,Description="Any structural variants have EVTYPE=Breakend">
+##INFO=<ID=SRC,Number=1,Type=String,Description="For fusion pipeline SRC=UMIFUSION">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene at identified fusion">
+##INFO=<ID=ORIENTATION,Number=1,Type=String,Description="Fusion on 5prime end or 3 prime end">
+##INFO=<ID=LOC,Number=1,Type=String,Description="gene-exon location where fusion occured">
+##INFO=<ID=FSN_LOC,Number=1,Type=String,Description="Type of junction in fusion">
+##INFO=<ID=MATEID,Number=1,Type=String,Description="ID of the fusion partner">
+##INFO=<ID=MATEGENE,Number=1,Type=String,Description="Gene name of the fusion partner">
+##INFO=<ID=FRM_STAT,Number=1,Type=String,Description="Frame status">
+##INFO=<ID=TRANSCRIPT,Number=1,Type=String,Description="Transcript on 3 prime end of fusion">
+##INFO=<ID=FSN_ANNOT,Number=1,Type=String,Description="FusionAnnotation">
+##INFO=<ID=FSN_CVG,Number=1,Type=Integer,Description="Total coverage at fusion position">
+##INFO=<ID=UNIQ_CVG,Number=1,Type=Integer,Description="Unique coverage at fusion position">
+##INFO=<ID=IGV_ID,Number=1,Type=String,Description="IGV Locus",Path="igv_session/igv_session.xml">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total depth at fusion position">
+##FORMAT=<ID=MTC,Number=1,Type=Integer,Description="Molecular tag coverage">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1
+chr7	143056825	bnd_a_bnd_A	G	G]7:140487384]	.	.	MATEID=bnd_a_bnd_B;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=FAM131B;LOC=E3-E9;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_001031690;FSN_ANNOT=Fusion-Candidate;MATEGENE=BRAF;IGV_ID=FAM131B:NM_001031690:E3-BRAF:NM_004333:E9	DP:MTC	42:42
+chr7	140487384	bnd_a_bnd_B	C	[7:143056825[C	.	.	MATEID=bnd_a_bnd_A;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=BRAF;LOC=E3-E9;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_004333;FSN_ANNOT=Fusion-Candidate;MATEGENE=FAM131B;IGV_ID=FAM131B:NM_001031690:E3-BRAF:NM_004333:E9	DP:MTC	42:42
+chr7	143057133	bnd_a_bnd_C	C	C]7:140487384]	.	.	MATEID=bnd_a_bnd_D;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=FAM131B;LOC=E2-E9;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_001031690;FSN_ANNOT=Fusion-Candidate;MATEGENE=BRAF;IGV_ID=FAM131B:NM_001031690:E2-BRAF:NM_004333:E9	DP:MTC	97:97
+chr7	140487384	bnd_a_bnd_D	C	[7:143057133[C	.	.	MATEID=bnd_a_bnd_C;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=BRAF;LOC=E2-E9;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_004333;FSN_ANNOT=Fusion-Candidate;MATEGENE=FAM131B;IGV_ID=FAM131B:NM_001031690:E2-BRAF:NM_004333:E9	DP:MTC	97:97

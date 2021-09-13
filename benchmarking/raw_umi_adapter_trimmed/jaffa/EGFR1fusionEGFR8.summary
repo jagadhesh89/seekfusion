@@ -1,0 +1,2 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+R0260303:558:000000000-BTL34:1:1107:12711:15688/1	0	8	74	chr6	163478896	+	chrX	41671530	-	Inf	TRUE	TRUE	TRUE	QKI:CASK	-	MediumConfidence

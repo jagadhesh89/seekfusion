@@ -1,0 +1,30 @@
+##fileformat=VCFv4.3
+##source=RNAFUSIONv1.0
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Any structural variants have SVTYPE=BND">
+##INFO=<ID=EVTYPE,Number=1,Type=String,Description="Any structural variants have EVTYPE=Breakend">
+##INFO=<ID=SRC,Number=1,Type=String,Description="For fusion pipeline SRC=UMIFUSION">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene at identified fusion">
+##INFO=<ID=ORIENTATION,Number=1,Type=String,Description="Fusion on 5prime end or 3 prime end">
+##INFO=<ID=LOC,Number=1,Type=String,Description="gene-exon location where fusion occured">
+##INFO=<ID=FSN_LOC,Number=1,Type=String,Description="Type of junction in fusion">
+##INFO=<ID=MATEID,Number=1,Type=String,Description="ID of the fusion partner">
+##INFO=<ID=MATEGENE,Number=1,Type=String,Description="Gene name of the fusion partner">
+##INFO=<ID=FRM_STAT,Number=1,Type=String,Description="Frame status">
+##INFO=<ID=TRANSCRIPT,Number=1,Type=String,Description="Transcript on 3 prime end of fusion">
+##INFO=<ID=FSN_ANNOT,Number=1,Type=String,Description="FusionAnnotation">
+##INFO=<ID=FSN_CVG,Number=1,Type=Integer,Description="Total coverage at fusion position">
+##INFO=<ID=UNIQ_CVG,Number=1,Type=Integer,Description="Unique coverage at fusion position">
+##INFO=<ID=IGV_ID,Number=1,Type=String,Description="IGV Locus",Path="igv_session/igv_session.xml">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total depth at fusion position">
+##FORMAT=<ID=MTC,Number=1,Type=Integer,Description="Molecular tag coverage">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1
+chr11	63533279	bnd_a_bnd_A	C	C]11:65429559]	.	.	MATEID=bnd_a_bnd_B;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=C11orf95;LOC=E2-E3;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_001144936;FSN_ANNOT=Fusion-Candidate;MATEGENE=RELA;IGV_ID=C11orf95:NM_001144936:E2-RELA:NM_021975:E3	DP:MTC	126:126
+chr11	65429559	bnd_a_bnd_B	T	[11:63533279[T	.	.	MATEID=bnd_a_bnd_A;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=RELA;LOC=E2-E3;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_021975;FSN_ANNOT=Fusion-Candidate;MATEGENE=C11orf95;IGV_ID=C11orf95:NM_001144936:E2-RELA:NM_021975:E3	DP:MTC	126:126
+chr11	63533279	bnd_a_bnd_C	C	C]11:65429676]	.	.	MATEID=bnd_a_bnd_D;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=C11orf95;LOC=E2-E2;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_001144936;FSN_ANNOT=Fusion-Candidate;MATEGENE=RELA;IGV_ID=C11orf95:NM_001144936:E2-RELA:NM_021975:E2	DP:MTC	306:306
+chr11	65429676	bnd_a_bnd_D	T	[11:63533279[T	.	.	MATEID=bnd_a_bnd_C;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=RELA;LOC=E2-E2;FSN_LOC=Exon-Exon_boundary;FRM_STAT=In-Frame;TRANSCRIPT=NM_021975;FSN_ANNOT=Fusion-Candidate;MATEGENE=C11orf95;IGV_ID=C11orf95:NM_001144936:E2-RELA:NM_021975:E2	DP:MTC	306:306
+chr11	63532375	bnd_a_bnd_E	G	G]11:65429559]	.	.	MATEID=bnd_a_bnd_F;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=C11orf95;LOC=NA-E3;FSN_LOC=Intron-Exon_boundary;FRM_STAT=Promoter_Swap;TRANSCRIPT=NA;FSN_ANNOT=-;MATEGENE=RELA;IGV_ID=C11orf95:NA:NA-RELA:NM_021975:E3	DP:MTC	17:17
+chr11	65429559	bnd_a_bnd_F	T	[11:63532375[T	.	.	MATEID=bnd_a_bnd_E;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=RELA;LOC=NA-E3;FSN_LOC=Intron-Exon_boundary;FRM_STAT=Promoter_Swap;TRANSCRIPT=NM_021975;FSN_ANNOT=-;MATEGENE=C11orf95;IGV_ID=C11orf95:NA:NA-RELA:NM_021975:E3	DP:MTC	17:17
+chr11	63532375	bnd_a_bnd_G	G	G]11:65429676]	.	.	MATEID=bnd_a_bnd_H;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=C11orf95;LOC=NA-E2;FSN_LOC=Intron-Exon_boundary;FRM_STAT=Promoter_Swap;TRANSCRIPT=NA;FSN_ANNOT=-;MATEGENE=RELA;IGV_ID=C11orf95:NA:NA-RELA:NM_021975:E2	DP:MTC	524:524
+chr11	65429676	bnd_a_bnd_H	T	[11:63532375[T	.	.	MATEID=bnd_a_bnd_G;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=RELA;LOC=NA-E2;FSN_LOC=Intron-Exon_boundary;FRM_STAT=Promoter_Swap;TRANSCRIPT=NM_021975;FSN_ANNOT=-;MATEGENE=C11orf95;IGV_ID=C11orf95:NA:NA-RELA:NM_021975:E2	DP:MTC	524:524
+chr11	63532375	bnd_a_bnd_I	G	G]11:65429850]	.	.	MATEID=bnd_a_bnd_J;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=5PRIME;GENE=C11orf95;LOC=NA-NA;FSN_LOC=within_Gene_but_not_Exon_boundary;FRM_STAT=-;TRANSCRIPT=NA;FSN_ANNOT=-;MATEGENE=RELA;IGV_ID=C11orf95:NA:NA-RELA:NA:NA-3	DP:MTC	719:719
+chr11	65429850	bnd_a_bnd_J	C	[11:63532375[C	.	.	MATEID=bnd_a_bnd_I;SVTYPE=BND;EVTYPE=Fusion;SRC=UMIFUSION;ORIENTATION=3PRIME;GENE=RELA;LOC=NA-NA;FSN_LOC=within_Gene_but_not_Exon_boundary;FRM_STAT=-;TRANSCRIPT=NA;FSN_ANNOT=-;MATEGENE=C11orf95;IGV_ID=C11orf95:NA:NA-RELA:NA:NA-3	DP:MTC	719:719

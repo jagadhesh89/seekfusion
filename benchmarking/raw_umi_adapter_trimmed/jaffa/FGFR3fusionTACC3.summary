@@ -1,0 +1,2 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+R0260303:558:000000000-BTL34:1:1101:21578:6974/1	0	137	97	chr4	1806934	+	chr4	1737598	+	69.334	TRUE	TRUE	TRUE	FGFR3:TACC3	Yes	MediumConfidence

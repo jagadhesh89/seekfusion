@@ -1,0 +1,4 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+R0239954:587:000000000-BTFFR:1:1106:26783:19637/1	22	2	84	chr7	55163741	+	chr15	42692759	+	Inf	TRUE	FALSE	NA	EGFR:STARD9	-	LowConfidence
+R0239954:587:000000000-BTFFR:1:1101:10603:3911/1	0	43	73	chr7	55200413	+	chr7	55796092	-	595.683	TRUE	TRUE	TRUE	EGFR:SEPT14	Yes	MediumConfidence
+R0239954:587:000000000-BTFFR:1:1101:10610:5720/1	0	423	94	chr7	55200413	+	chr9	138286248	+	Inf	TRUE	TRUE	TRUE	EGFR:FO082796.1	-	MediumConfidence

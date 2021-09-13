@@ -1,0 +1,2 @@
+transcript	spanning_pairs	spanning_reads	contig_break	chrom1	base1	strand1	chrom2	base2	strand2	gap	rearrangement	aligns	inframe	fusion_genes	known	classification
+R0265517:407:000000000-BKDWM:1:1101:13615:14877/1	0	29	84	chr12	57092968	+	chr12	57108299	-	15.333	TRUE	TRUE	TRUE	NAB2:STAT6	Yes	MediumConfidence
