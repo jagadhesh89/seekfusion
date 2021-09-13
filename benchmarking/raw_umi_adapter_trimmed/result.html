@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+<TITLE>result</TITLE>
+<META NAME="description" CONTENT="result">
+<META NAME="keywords" CONTENT="result">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<!--[if IE]><script src="excanvas.js"></script><![endif]-->
+<style type="text/css">
+H1 { margin: 0 0 0 0; }
+</style>
+</HEAD>
+<BODY text="#000000" bgcolor="#FFFFFF" onload="">
+<H1><BR>Candidate fusion list</H1>
+The following tables show fusion candidates where fusions are grouped based on their genomic locations (<a href="#detail">table description</a>).<BR>
+<H1><A NAME="detail"></A><BR>table description</H1>
+1. Sample name in which a fusion is identified <BR>
+2. Gene on the "left" side of the fusion <BR>
+3. Chromosome ID on the left <BR>
+4. Coordinates on the left <BR>
+5. Gene on the "right" side <BR>
+6. Chromosome ID on the right <BR>
+7. Coordinates on the right <BR>
+8. Number of spanning reads - this is the number of reads that span a fusion point all on their own.  In other words, the read itself has a fusion break point within it. <BR>
+9. Number of spanning mate pairs -  this is the number of pairs of reads where one read maps entirely on the left and the other read maps entirely on the right of the fusion break point.  Neither read is split, so these pairs are not counted at all in (8). <BR>
+10. Number of spanning mate pairs where one end spans a fusion (reads spanning fusion with only a few bases are included). <BR>
+If you follow the the 9th column, it shows coordinates "number1:number2" where one end is located at a distance of "number1" bases from the left genomic coordinate of a fusion and "number2" is similarly defined.
+<BR/><BR/><BR/>
+</BODY>
+</HTML>
