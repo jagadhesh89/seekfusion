@@ -21,12 +21,12 @@ The outputs are created in the input sample folder under a directory named umifu
 
 Here are some customizable options in the pipeline:
 
-1.  Change minimum number of reads / UMIs supporting fusions - use the main.info under /pipeline/ordered_service/pipelines/umifusion/main.info and look for VCF_ReadThreshold and VCF_TagThreshold (UMI) 
-2.  Change adapters to be trimmed - use the main.info under /pipeline/ordered_service/pipelines/umifusion/main.info and change the ADAPTER_FILE
+1.  Change minimum number of reads / UMIs supporting fusions - use the main.info under <input sample folder>/pipeline/ordered_service/pipelines/umifusion/main.info and look for VCF_ReadThreshold and VCF_TagThreshold (UMI) 
+2.  Change adapters to be trimmed - use the main.info under <input sample folder>/pipeline/ordered_service/pipelines/umifusion/main.info and change the ADAPTER_FILE
 3.  Change the regions that need to be looked at (change target genes)
-    1.  Modify the target.bed in /pipeline/ordered_service/target.bed
-    2.  Modify the genes.txt in /pipeline/ordered_service/pipelines/ for the new list of genes
-    3.  Modify the reference and add the gene sequence with gene name as the contig name in reference/snapshot_v2/bwa/reference.fa and index the reference using bwa
+    1.  Modify the target.bed in <input sample folder>/pipeline/ordered_service/target.bed
+    2.  Modify the genes.txt in <input sample folder>/pipeline/ordered_service/pipelines/ for the new list of genes
+    3.  Modify the reference and add the gene sequence with gene name as the contig name in reference/snapshot_v2/bwa/reference.fa and index the reference using bwa - the references (according to path above) are in the docker container. 
 4. Change the transcript variants that needs to be called (such as EGFR VIII): modify reference/snapshot_v2/transcript_variants.txt
 5. If the pipeline needs to use deduping modify pipeline/test_data/ordered_service/os.cfg, specifically the fastqUmiDedup to yes. The fastq headers need to have the UMIs in their headers. (Similar to the format of bcl-convert software from illumina , v3.4.8)
 6. Change the blocklist for noisy calls: modify reference/snapshot_v2/body_map_fusions.DB.RefSeq.txt
